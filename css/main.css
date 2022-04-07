@@ -1,0 +1,36 @@
+/*
+
+File for main bar, form main items on the page, products items
+
+*/
+
+#main .container{
+  margin-top: 80px;
+}
+
+#main img:hover {
+  opacity: 0.8;
+}
+
+
+#panoAbout{
+       background-image:url("../admin/img/panoabout.jpg");
+       background-size: cover;
+       background-position: center;
+       min-height: 75vh;
+       position: relative;
+}
+
+@media (max-width: 768px){
+  .pano-img-about{
+    display: none;
+  }
+}
+
+
+#map {
+height: 400px;
+/* The height is 400 pixels */
+width: 100%;
+/* The width is the width of the web page */
+}
